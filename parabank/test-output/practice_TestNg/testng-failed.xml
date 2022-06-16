@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [practice_TestNg]">
+  <test name="testngTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="practice_TestNg.Testcase2_page">
+        <methods>
+          <include name="open_browser"/>
+        </methods>
+      </class> <!-- practice_TestNg.Testcase2_page -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [practice_TestNg] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [selenium_test_practice]">
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="selenium_test_practice.ParallelTest_TestNG">
+        <methods>
+          <include name="openbroser_firefox"/>
+        </methods>
+      </class> <!-- selenium_test_practice.ParallelTest_TestNG -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [selenium_test_practice] -->

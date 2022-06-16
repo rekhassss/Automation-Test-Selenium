@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  TO RUN TEST PARALLELY -->
+<suite name="selenium_test_practice"  parallel="methods" thread-count="2">
+<!-- <suite name="selenium_test_practice"> -->
+<test name="testngTest">
+<classes>
+<class name="selenium_test_practice.ParallelTest_TestNG" />
+</classes>
+</test>
+</suite>

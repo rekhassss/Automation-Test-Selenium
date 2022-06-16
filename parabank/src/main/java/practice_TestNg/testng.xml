@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+ <!-- practice_TestNg is package name  -->
+<suite name="practice_TestNg">
+<test name="testngTest">
+
+
+<parameter name="browser" value="firefox"/>
+
+
+<classes>
+<!--  packagename.classname -->
+<class name="practice_TestNg.Testcase1_page" />
+<class name="practice_TestNg.Testcase2_page" />
+<class name="practice_TestNg.Testcase3_group"/>
+</classes>
+</test>
+</suite>
